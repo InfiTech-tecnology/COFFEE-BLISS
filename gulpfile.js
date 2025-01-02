@@ -44,7 +44,8 @@ exports.dev = dev;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
-exports.default = series( imagenes, versionWebp, versionAvif, css, dev )
+exports.build = series( imagenes, versionWebp, versionAvif, css, dev );
+exports.default = series(imagenes, versionWebp, versionAvif, css, dev);
 
 
 // Series - Ejecuta una tarea y asta que termine ejecuta la otra tarea.
