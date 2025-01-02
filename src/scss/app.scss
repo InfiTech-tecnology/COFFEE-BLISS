@@ -1,6 +1,5 @@
-$primario: blue;
-
-
-body {
-    background-color: $primario;
-}
+@use 'base/index';
+@use 'header';
+@use 'footer';
+@use 'inicio';
+@use 'internas';

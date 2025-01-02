@@ -1,0 +1,26 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenido-menu {
+    margin: 0 auto;
+    
+    @include m.desktop { 
+        display: flex;
+        gap: 4rem;
+    }
+    .texto {
+
+        @include m.desktop { 
+            width: 50%;
+            
+        }
+    }
+    .img-menu {
+        
+        @include m.desktop { 
+            width: 50%;
+        }
+    }
+    
+
+}
